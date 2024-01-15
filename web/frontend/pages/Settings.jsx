@@ -34,8 +34,6 @@ function Settings() {
         console.log(error);
       }
       // const orders = await res.json();
-      
-      
     })();
   }, []);
 
@@ -44,7 +42,7 @@ function Settings() {
   return (
     <div>
       <SimpleIndexTable orders={listOrders} />
-      <p>Parameters from URL: {ids.join(', ')}</p>
+      {/* <p>Parameters from URL: {ids.join(', ')}</p> */}
     </div>
   );
 }

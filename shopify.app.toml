@@ -2,18 +2,18 @@
 
 name = "itwa-extension-1"
 client_id = "15702349ac9a2de3a9e83b1de6068d54"
-application_url = "https://entity-wr-minute-hunt.trycloudflare.com"
+application_url = "https://lid-when-number-composite.trycloudflare.com"
 embedded = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products,read_orders,write_orders"
+scopes = "write_products,read_orders,write_orders,read_customers"
 
 [auth]
 redirect_urls = [
-  "https://entity-wr-minute-hunt.trycloudflare.com/auth/callback",
-  "https://entity-wr-minute-hunt.trycloudflare.com/auth/shopify/callback",
-  "https://entity-wr-minute-hunt.trycloudflare.com/api/auth/callback"
+  "https://lid-when-number-composite.trycloudflare.com/auth/callback",
+  "https://lid-when-number-composite.trycloudflare.com/auth/shopify/callback",
+  "https://lid-when-number-composite.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
