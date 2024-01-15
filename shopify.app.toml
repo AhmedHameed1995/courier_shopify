@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "itwa-extension-1"
+client_id = "15702349ac9a2de3a9e83b1de6068d54"
+application_url = "https://entity-wr-minute-hunt.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products,read_orders,write_orders"
+
+[auth]
+redirect_urls = [
+  "https://entity-wr-minute-hunt.trycloudflare.com/auth/callback",
+  "https://entity-wr-minute-hunt.trycloudflare.com/auth/shopify/callback",
+  "https://entity-wr-minute-hunt.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "itwebdevs.myshopify.com"
